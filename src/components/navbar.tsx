@@ -1,14 +1,11 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
 
-type Props = {}
-
-export default function navbar({}: Props) {
+export default function Navbar() {
   return (
     <header className="navbar">
-        <Link href="/">
-            <h4>App contact</h4>
-        </Link>
+      <Link href="/">
+        <h4>App contact</h4>
+      </Link>
     </header>
-  )
+  );
 }

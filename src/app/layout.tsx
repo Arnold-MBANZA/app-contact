@@ -1,10 +1,6 @@
-import type { Metadata } from "next";
-
-import "./globals.css";
 import { poppins } from "@/font/font";
-import Navbar from "@/components/navbar";
-
-
+import type { Metadata } from "next";
+import "./globals.css";
 export const metadata: Metadata = {
   title: "My contact",
   description: "Une application de gestion de contacts",
