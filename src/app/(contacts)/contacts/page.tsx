@@ -1,9 +1,7 @@
 import ContactList from '@/components/contact-list'
 import Link from 'next/link'
 
-type Props = {}
-
-export default function page({}: Props) {
+export default function Page() {
   return (
     <div className='mt-2'>
       <header className='flex between'>
@@ -13,7 +11,4 @@ export default function page({}: Props) {
         </Link>
         <ContactList/>
       </header>
-
-    </div>
-  )
-}
+    </div>)}
